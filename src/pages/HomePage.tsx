@@ -165,7 +165,7 @@ const HomePage = () => {
             initial={{ scale: 1.2, opacity: 0 }}
             animate={{ scale: 1, opacity: 0.4 }}
             transition={{ duration: 1.5 }}
-            className="absolute inset-0 bg-[url('./hero-mundial.jpg')] bg-cover bg-center" 
+            className="absolute inset-0 bg-[url('/hero-mundial.jpg')] bg-cover bg-center" 
           />
         </div>
 
@@ -182,7 +182,7 @@ const HomePage = () => {
               transition={{ type: "spring", stiffness: 300 }}
               className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex items-center justify-center"
             >
-              <img src="./logo_mundial.webp" alt="logo-mundial" className="w-full h-full object-contain" />
+              <img src="/logo_mundial.webp" alt="logo-mundial" className="w-full h-full object-contain" />
             </motion.div>
             <motion.div 
               variants={fadeInScale}
@@ -196,7 +196,7 @@ const HomePage = () => {
               transition={{ type: "spring", stiffness: 300 }}
               className="w-24 h-24 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-full flex items-center justify-center invert"
             >
-             <img src="./logo_luuna.webp" alt="logo-luuna" className="w-full h-full object-contain" />
+             <img src="/logo_luuna.webp" alt="logo-luuna" className="w-full h-full object-contain" />
             </motion.div>
           </motion.div>
 
@@ -350,7 +350,7 @@ const HomePage = () => {
             {/* Product Images Gallery */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
               <div className="relative h-64 sm:h-80 lg:h-96 rounded-2xl overflow-hidden md:col-span-2 group">
-                <div className="absolute inset-0 bg-[url('./almo-1.png')] bg-cover bg-center group-hover:scale-110 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-[url('/almo-1.png')] bg-cover bg-center group-hover:scale-110 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent" />
                 <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6">
                   <div className="w-10 sm:w-12 h-0.5 bg-blue-600 mb-2" />
@@ -359,7 +359,7 @@ const HomePage = () => {
                 </div>
               </div>
               <div className="relative h-64 sm:h-80 lg:h-96 rounded-2xl overflow-hidden group">
-                <div className="absolute inset-0 bg-[url('./almo-2.png')] bg-cover bg-center group-hover:scale-110 transition-transform duration-700" />
+                <div className="absolute inset-0 bg-[url('/almo-2.png')] bg-cover bg-center group-hover:scale-110 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent" />
                 <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6">
                   <p className="text-white text-lg sm:text-xl font-bold">Comodidad y Pasión</p>
@@ -576,7 +576,7 @@ const HomePage = () => {
       {/* CTA Section */}
       <section 
         id="reserva"
-        className="h-[75vh] text-white inset-0 bg-[url('https://images.unsplash.com/photo-1434648957308-5e6a859697e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"
+        className="h-[60vh] sm:h-[70vh] lg:h-[75vh] text-white inset-0 bg-[url('https://images.unsplash.com/photo-1434648957308-5e6a859697e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center"
       >
         <div className="w-full h-full mx-auto px-4 sm:px-6 text-center flex flex-col items-center justify-center bg-black/70">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 px-4">
